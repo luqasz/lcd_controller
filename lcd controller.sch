@@ -421,50 +421,6 @@ Wire Wire Line
 Connection ~ 5450 2950
 Wire Wire Line
 	4500 2950 5250 2950
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5D9C95FB
-P 5500 1000
-F 0 "H3" H 5600 1046 50  0000 L CNN
-F 1 "MountingHole" H 5600 955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5500 1000 50  0001 C CNN
-F 3 "~" H 5500 1000 50  0001 C CNN
-	1    5500 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5D9C9670
-P 5500 800
-F 0 "H2" H 5600 846 50  0000 L CNN
-F 1 "MountingHole" H 5600 755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5500 800 50  0001 C CNN
-F 3 "~" H 5500 800 50  0001 C CNN
-	1    5500 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5D9C9B4F
-P 5500 600
-F 0 "H1" H 5600 646 50  0000 L CNN
-F 1 "MountingHole" H 5600 555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5500 600 50  0001 C CNN
-F 3 "~" H 5500 600 50  0001 C CNN
-	1    5500 600 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5D9C9CCB
-P 5500 1200
-F 0 "H4" H 5600 1246 50  0000 L CNN
-F 1 "MountingHole" H 5600 1155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5500 1200 50  0001 C CNN
-F 3 "~" H 5500 1200 50  0001 C CNN
-	1    5500 1200
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	5100 4250 5100 4350
 Entry Wire Line
@@ -602,11 +558,11 @@ NoConn ~ 7550 3500
 Wire Bus Line
 	2800 4500 2800 4600
 Wire Bus Line
-	5100 3150 5100 3450
-Wire Bus Line
 	6450 3000 6450 3500
 Wire Bus Line
-	5100 4650 5100 5350
+	5100 3150 5100 3450
 Wire Bus Line
 	6550 4350 6550 5350
+Wire Bus Line
+	5100 4650 5100 5350
 $EndSCHEMATC
